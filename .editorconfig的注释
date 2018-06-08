@@ -1,0 +1,17 @@
+// 告诉editorconfi, 这里已经是根目录了, 不需要再往上找了
+root = true
+
+// 该目录下的所有东西都接受修改
+[*]
+// 语言类型: utf-8
+charset = utf-8
+// 缩进大小: 2格
+indent_size = 2
+// 缩进样式: 空格
+indent_style = space
+// 行为样式类型: lf
+end_of_line = lf
+// 自动在文本最后一行加空行
+insert_final_newline = true
+// 自动去掉首尾多余空格
+trim_trailing_whitespace = true

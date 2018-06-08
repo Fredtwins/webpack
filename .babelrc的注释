@@ -1,0 +1,10 @@
+{
+  "presets": [
+    // 插件名为: babel-preset-env
+    // 用来让babel知道, 它要编译的东西的环境是怎样, 再根据环境去编译
+    "env",
+    // 插件名为: babel-preset-stage-1
+    // 可以让babel编译更新的语法, 甚至包括ES8
+    "stage-1"
+  ]
+}

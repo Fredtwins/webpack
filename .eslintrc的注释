@@ -1,0 +1,16 @@
+{
+  // 插件名称: eslint-config-standard
+  // 用来校验js语法
+  "extends": "standard",
+  "plugins": [
+    // 插件名称: eslint-plugin-html
+    // 用来校验vue语法
+    "html"
+  ],
+  // 使用babel帮助eslint执行校验
+  "parser": "babel-eslint",
+  // 规则
+  "rules": {
+    "no-new": "off"
+  }
+}
